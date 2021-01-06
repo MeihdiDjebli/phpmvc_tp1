@@ -20,15 +20,6 @@
         <i class="fa fa-thumbs-up"></i>
     </h1>
     <h1>Well done !</h1>
-    <?php
-    $nombres = [1, 4, 5];
-
-    for ($i=0; $i<count($nombres); $i++) {
-        echo ($nombres[$i] % 2 === 0) ? "$nombres[$i] est pair" : "$nombres[$i] est impair";
-        echo "<br>";
-    }
-    ?>
-
 </body>
 
 </html>
